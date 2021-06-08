@@ -7,7 +7,93 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.githubLogoContainer {
+  width: 30%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.githubLogoContainer img {
+  width: 100px;
+  height: 70px;
+}
+
+.searchUserContainer {
+  width: 30%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.searchUserContainer input {
+  width: 300px;
+  height: 35px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.searchUserContainer button {
+  width: 70px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.userList {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 680px;
+}
+
+.userCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 1px solid black;
+  width: 40%;
+  height: 250px;
+  margin-top: 100px;
+}
+
+.avatarContainer {
+  width: 200px;
+  height: 200px;
+}
+
+.avatarContainer img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.userInfo {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.userInfo span {
+  font-weight: bold;
 }
